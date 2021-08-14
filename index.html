@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+        <!-- -------------------------------------------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  -----------------Header Section Markup-----------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ------------------------------------------------------- -->
+        <header>
+            <!-- ----------------Navbar---------------- -->
+            <section class="container mb-5 pb-0">
+                <nav class="navbar px-4 mb-5 navbar-expand-lg  navbar-light bg-light fixed-top">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#shoes">Shoes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#bag">Backpack</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#subscribe">Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <!-- ---------------Navbar End-------------- -->
+            <!-- ---------------Banner Start-------------- -->
+            <section class="container mt-5 pt-5" id="banner">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner mt-5">
+                        <div class="carousel-item p-5 active" data-bs-interval="10000">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7">
+                                    <h1>Cool Dude Headphone</h1>
+                                    <p>This is the best headphone in the world for people who just want to waste time in front
+                                        of funky world.</p>
+                                    <h1 class="banner-priching">$420</h1>
+                                    <a class="banner-btn btn-lg rounded" target="_blank"
+                                        href="https://www.linkedin.com/in/asadullah-hil-galib-25450b216/" class="">Buy Now</a>
+                                </div>
+                                <div class="col-lg-5 mt-4 mt-lg-0">
+                                    <img class="img-fluid" src="images/banner-images/headphone.png" class="d-block w-100"
+                                        alt="Carousel One">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item p-5" data-bs-interval="2000">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7">
+                                    <h1>Mega LCD TV For Sports</h1>
+                                    <p>This is the best tv in the world for people who just want to waste time in front of tv.
+                                    </p>
+                                    <h1 class="banner-priching">$1200</h1>
+                                    <a class="banner-btn btn-lg rounded" target="_blank"
+                                        href="https://www.linkedin.com/in/asadullah-hil-galib-25450b216/" class="">Buy Now</a>
+                                </div>
+                                <div class="col-lg-5 mt-4 mt-lg-0">
+                                    <img class="img-fluid" src="images/banner-images/tv.png" class="d-block w-100"
+                                        alt="Carousel Two">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item p-5">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7">
+                                    <h1>X-Box for your living room</h1>
+                                    <p>This is the best x-box in the world for people who just want to waste time in front of
+                                        fake sports.</p>
+                                    <h1 class="banner-priching">$600</h1>
+                                    <a class="banner-btn btn-lg rounded" target="_blank"
+                                        href="https://www.linkedin.com/in/asadullah-hil-galib-25450b216/" class="">Buy Now</a>
+                                </div>
+                                <div class="col-lg-5 mt-4 mt-lg-0">
+                                    <img class="img-fluid" src="images/banner-images/xbox.png" class="d-block w-100"
+                                        alt="Carousel Three">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span><i class="fas fa-angle-left"></i></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span><i class="fas fa-angle-right"></i></span>
+                    </button>
+                </div>
+            </section>
+            <!-- -------------Banner End------------- -->
+        </header>
+        <!-- ---------------------------------------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ---------------Header Section End------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          --------------------------------------------------- -->
+        <!-- ---------------------------------------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ---------------Main Section Start------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          --------------------------------------------------- -->
+        <main>
+            <!-- Feature Product Section -->
+            <section id="feature-product">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 mt-4 mt-lg-0">
+                            <div class="card card-1">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h1>Watch</h1>
+                                        <img class="img-fluid" src="images/categories/watch.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4 mt-lg-0">
+                            <div class="card card-2">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h1>Bag</h1>
+                                        <img class="img-fluid" src="images/categories/bag.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4 mt-lg-0">
+                            <div class="card card-3">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h1>Shoes</h1>
+                                        <img class="img-fluid" src="images/categories/shoes.png" alt="">
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Shoes Section Markup -->
+            <section id="shoes">
+                <div class="container">
+                    <div class="section-header">
+                        <h1>Shoes</h1>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 mt-4 col-md-lg-0">
+                            <div class="card border-0 shadow-lg">
+                                <div class="card-body">
+                                    <img class="img-fluid" src="images/shoes/shoe-1.png" alt="">
+                                    <h5 class="card-title">Supply 350</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                        to additional.</p>
+                                    <h5 class="price">$210</h5>
+                                    <a class="my-btn" target="_blank"
+                                        href="https://www.linkedin.com/in/asadullah-hil-galib-25450b216/">Buy Now >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 col-md-lg-0">
+                            <div class="card border-0 shadow-lg">
+                                <div class="card-body">
+                                    <img class="img-fluid" src="images/shoes/shoe-1.png" alt="">
+                                    <h5 class="card-title">Supply 350</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                        to additional.</p>
+                                    <h5 class="price">$210</h5>
+                                    <a class="my-btn" target="_blank"
+                                        href="https://www.linkedin.com/in/asadullah-hil-galib-25450b216/">Buy Now >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 col-md-lg-0">
+                            <div class="card border-0 shadow-lg">
+                                <img class="img-fluid" src="images/shoes/shoe-1.png" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Supply 350</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                        to additional.</p>
+                                    <h5 class="price">$210</h5>
+                                    <a class="my-btn" target="_blank"
+                                        href="https://www.linkedin.com/in/asadullah-hil-galib-25450b216/">Buy Now >></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Bag Section Markup -->
+            <section id="bag">
+                <div class="container">
+                    <div class="section-header">
+                        <h1>Bag</h1>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 mt-4 col-md-lg-0">
+                            <div class="card py-5 border-0 shadow-lg">
+                                <img class="img-fluid" src="images/shoes/shoe-1.png" alt="">
+                                <div class="card-body">
+                                    <div>
+                                        <h5 class="card-title">Supply 350</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural
+                                            lead-in
+                                            to additional.</p>
+                                        <h5 class="price mb-5">$210</h5>
+                                    </div>
+                                </div>
+                                <div class="card-footer border-0">
+                                    <a class="my-btn " target="_blank" href="https://www.facebook.com/coderboy20/">Buy Now
+                                        >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 col-md-lg-0">
+                            <div class="card py-5 border-0 shadow-lg">
+                                <img class="img-fluid" src="images/shoes/shoe-1.png" alt="">
+                                <div class="card-body">
+                                    <div>
+                                        <h5 class="card-title">Supply 350</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural
+                                            lead-in
+                                            to additional.</p>
+                                        <h5 class="price mb-5">$210</h5>
+                                    </div>
+                                </div>
+                                <div class="card-footer border-0">
+                                    <a class="my-btn " target="_blank" href="https://www.facebook.com/coderboy20/">Buy Now
+                                        >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 col-md-lg-0">
+                            <div class="card py-5 border-0 shadow-lg">
+                                <div class="card-body">
+                                    <img class="img-fluid" src="images/shoes/shoe-1.png" alt="">
+                                    <div>
+                                        <h5 class="card-title">Supply 350</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural
+                                            lead-in
+                                            to additional.</p>
+                                        <h5 class="price mb-5">$210</h5>
+                                    </div>
+                                </div>
+                                <div class="card-footer border-0">
+                                    <a class="my-btn " target="_blank" href="https://www.facebook.com/coderboy20/">Buy Now
+                                        >></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="subscribe">
+                <div class="container d-flex justify-content-center align-items-center">
+                    <div>
+                        <h3>LET'S STAY IN TOUCH</h3>
+                        <span class="text-muted">Get updates on sales, specials and more</span>
+                        <form action="#">
+                            <input class="form-control mb-0 mt-2" type="email">
+                            <button class="text-uppercase my-btn border-0">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- ---------------------------------------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ---------------Main Section End------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        --------------------------------------------------- -->
+        <footer class=" d-flex justify-content-center align-items-end pb-2">
+            <small>&copy; 2021. Md.Rokibul Hasan. All rights reserved.</small>
+        </footer>
+        
+
+        
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+  </body>
+</html>

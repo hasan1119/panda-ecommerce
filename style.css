@@ -1,0 +1,145 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body h1 {
+    color: white;
+}
+
+.my-btn {
+    padding: .6rem 1.3rem;
+    background: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.price {
+    margin-bottom: 1.2rem;
+}
+
+/*------------------------------------
+           Banner Section Style
+-------------------------------------- */
+.carousel-inner {
+    background: #fceae8;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 480px;
+}
+
+.carousel-item img {
+    max-width: 70%;
+}
+
+.carousel-item p {
+    width: 90%;
+}
+
+.carousel-item .banner-priching {
+    color: #FF589B;
+    margin-bottom: 1rem;
+}
+
+.carousel-item .banner-btn {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: .7rem 1.3rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: #fff;
+    font-size: 28px;
+    background: rgba(0, 0, 0, 0.013);
+}
+
+/*-----------------------------------------
+       Feature Product Section Style
+------------------------------------------- */
+#feature-product {
+    margin: 100px 0;
+}
+
+#feature-product img {
+    width: 100px;
+    text-align: right;
+}
+
+#feature-product .card {
+    border: 0;
+    border-radius: 10px;
+}
+
+#feature-product .card-1 {
+    background: #ffa500;
+}
+
+#feature-product .card-2 {
+    background: #da70d6;
+}
+
+#feature-product .card-3 {
+    background: #0000ff;
+}
+
+/* ------------------------------------------
+            Shoes Section Style
+------------------------------------------ */
+#shoes {
+    margin: 50px 0;
+}
+
+/* ------------------------------------------
+            Bag Section Style
+------------------------------------------ */
+#bag {
+    margin: 50px 0;
+}
+
+#bag .card {
+    min-height: 544px;
+}
+
+/* ------------------------------------------
+            Subscrib Section Style
+------------------------------------------ */
+#subscribe {
+    margin: 50px 0;
+}
+
+#subscribe .container {
+    background: #fceae8;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.card-footer {
+    background: transparent;
+}
+
+/* ------------------------------------------
+            Footer Section Style
+------------------------------------------ */
+footer {
+    height: 150px;
+    text-align: center;
+    padding: 0 1%;
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel-item {
+        min-height: 100vh;
+    }
+}
